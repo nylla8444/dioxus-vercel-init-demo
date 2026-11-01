@@ -48,6 +48,7 @@ fn Home() -> Element {
             " init. No token, secret, workflow or local build."
         }
         p { "If the button counts, the WebAssembly loaded and is running." }
+        p { "Every push to main redeploys this page; pull requests get their own preview." }
         button { onclick: move |_| count += 1, "Clicked {count} times" }
     }
 }
