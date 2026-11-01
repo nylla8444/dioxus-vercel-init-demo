@@ -1,5 +1,5 @@
 {
   "framework": null,
-  "installCommand": "cargo install dioxus-vercel --version 0.3.0 --locked",
+  "installCommand": "cargo install --git https://github.com/nylla8444/dioxus-vercel --branch release-0.3.2 --locked",
   "buildCommand": "dioxus-vercel build"
 }
