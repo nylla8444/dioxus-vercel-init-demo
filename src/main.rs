@@ -58,7 +58,7 @@ fn About() -> Element {
     rsx! {
         h1 { "About" }
         p {
-            "This page is a client-side route. Reloading it shows that Vercel serves "
+            "This page is a client-side route, and this sentence was changed in a pull request. Reloading it shows that Vercel serves "
             "index.html for it and the app's router takes over."
         }
     }
